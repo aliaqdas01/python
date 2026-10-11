@@ -1,0 +1,24 @@
+#!/usr/bin/python3
+l=[23,'lucknow',3.43]
+print(l)
+l.append('jaunpur')
+print(l)
+l1=['Kanpur','jaunpur','sitapur']
+print(len(l1))
+l1.append('banaras')
+print(l1)
+l2=l1[0:2]
+l4=l1[1:2]
+l5=l1[-3:-1]
+l6=l1[1: ]
+print(l2)
+print(l4)
+print(l5)
+print(l6)
+x=l1.pop()
+print(x)
+print(l1)
+l1.sort()
+print(l1)
+l1.reverse()
+print(l1)

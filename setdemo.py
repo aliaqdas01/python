@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+s={5,4,7,8}
+s2={1,3,4,8}
+print(s)
+dir(s)
+print(s&s2)
+print(s|s2)
+print(s-s2)
+print(type(s))

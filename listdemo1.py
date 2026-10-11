@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+l=['lucknow',20,3.56]
+print(len(l))
+print(l)
+x=l.pop(1)
+print(x)
+print(l)
+y=l.pop()
+print(y)
+print(l)
+l1=[[1,2,3],[10,20,30],[7,9,13]]
+print(l1[1])
+print(l1[2][1])
+l1[2][1]=50
+print(l1[2][1])
